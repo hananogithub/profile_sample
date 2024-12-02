@@ -1,5 +1,26 @@
 @charset "utf-8";
 
 title{
-    color: 
+    backgorund: black;
+}
+
+mainvisual{
+    height: 600px;
+}
+
+about{
+    width: 960px;
+    padding: 4%;
+    margin-right: auto;
+    margin-left : auto; 
+}
+@media screen{
+    .main {
+      width: 600px;
+      padding: 4%;
+    }
+}
+
+aboutimg{
+    border-radius:50%;
 }
