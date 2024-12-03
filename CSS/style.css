@@ -74,3 +74,18 @@ li{
 }
 
 /* About */
+#about .content{
+    didplay: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+#about .text{
+    text-align: left;
+}
+
