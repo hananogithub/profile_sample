@@ -13,12 +13,6 @@
     margin-right: auto;
     margin-left : auto; 
 }
-@media screen{
-    .aboutcontent{
-      width: 600px;
-      padding: 4%;
-    }
-}
 
 aboutimg{
     border-radius:50%;
@@ -118,4 +112,45 @@ header{
     background-color: black;
     color: white;
     padding: 10px;
+}
+
+
+@media (max-width: 600px){
+   header{
+    max-width: 480px;
+   }
+
+    .aboutcontent{
+      flex-direction: column; /* 縦並び */
+      align-items: center;
+      width: 100%;
+    }
+
+    .aboutimg{
+        width: 70%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .abouottext{
+        width: 90%;
+    }
+    
+    .column {
+        flex-direction: column;
+        gap: 20px; 
+        width: 100%;
+    }
+
+    .bike {
+        width: 100%;
+    }
+
+
+
+    h2{
+        font-size: 18px;
+    }
+
+
 }
