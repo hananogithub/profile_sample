@@ -4,7 +4,7 @@ html {
     font-size: 100%;
 }
 body {
-    color #383e45;
+    color :#383e45;
     font-size: 0.9rem;
 }
 a{
@@ -76,7 +76,7 @@ li{
 
 /* About */
 #about .content{
-    didplay: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -100,7 +100,7 @@ li{
 
 /* footer */
 #footer {
-    font-size: : 0.5rem;
+    font-size: 0.5rem;
     padding: 10px 0;
     text-align: center;
 }
