@@ -16,11 +16,12 @@ img{
 li{
     list-style: none;
 }
-.site-title{
+.site-title img{
     width: 120px;
     line-height: 1px;
-    padding: 10px 0;/* topBottom10 rightLeft0 */
+    padding: 10px 0; /* topBottom10 rightLeft0 */
 }
+
 .site-title a{
     display: block; /* vertical line */
 }
